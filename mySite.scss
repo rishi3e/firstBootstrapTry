@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+$bg-color: rgb(218, 203, 203);
+
+@mixin fontSize {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    @include fontSize;
+    background: $bg-color;
+  
+    h5{
+      margin: 2%;
+      font-size: 2rem;
+    }
+  
+    p{
+      margin: 2%;
+      font-size: 1rem;
+    }
+  }
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }

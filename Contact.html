@@ -1,0 +1,31 @@
+<html>
+
+<head>
+    <title>Contact Page</title>
+    <link rel="stylesheet" href="Contact.css">
+</head>
+
+<body>
+    <div>
+        <h1 style="text-align: center;">Contact Us</h1>
+        <form name="RegForm" onsubmit="return callingMethod()" method="post">
+            <p>Name: <input type="text" size="65" name="Name" /></p>
+            <br />
+            <p>Address: <input type="text" size="65" name="Address" /></p>
+            <br />
+            <p>E-mail Address: <input type="text" size="65" name="EMail" /></p>
+            <br />
+            <p>Telephone: <input type="text" size="65" name="Telephone" /></p>
+            <br />
+            <p>Comments: <textarea type="textarea" cols="55" name="Comment"> </textarea></p>
+            <p>
+                <span><input type="submit" value="Send" name="Submit" /></span>
+                <span><input type="reset" value="Reset" name="Reset" /></span>
+            </p>
+        </form>
+    </div>
+
+    <script src="Contact.js"></script>
+</body>
+
+</html>
